@@ -36,7 +36,7 @@ fun WelcomeScreen(){
         Column(modifier = Modifier.fillMaxSize().padding(vertical = 70.dp, horizontal = 24.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Bottom){
             Text("Fall in love with Coffee with Blissful Delight", color = Color.White, fontWeight = FontWeight.Bold, fontSize = 28.sp, textAlign = TextAlign.Center)
             Spacer(modifier = Modifier.height(16.dp))
-            Text("Welcome to the cozy coffee corner, where every cup is a delight for you.", color = Color.LightGray, fontWeight = FontWeight.Bold,  textAlign = TextAlign.Center)
+            Text("Welcome to the cozy coffee corner, where every cup is a delight for you.", color = Color.LightGray, fontSize = 15.sp,fontWeight = FontWeight.Bold,  textAlign = TextAlign.Center)
             Spacer(modifier = Modifier.height(50.dp))
             Button(onClick = {}, modifier = Modifier.fillMaxWidth().height(50.dp), shape = RoundedCornerShape(10.dp),colors = ButtonDefaults.buttonColors(containerColor = LightBrown, contentColor = Color.White)){
                 Text(text="Get Started", fontSize = 18.sp)
