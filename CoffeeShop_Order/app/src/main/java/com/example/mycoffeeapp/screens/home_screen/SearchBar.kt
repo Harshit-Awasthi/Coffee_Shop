@@ -48,7 +48,7 @@ fun SearchBar() {
             },
             shape = RoundedCornerShape(topStart = 16.dp, topEnd = 0.dp, bottomStart = 16.dp, bottomEnd = 0.dp),
             singleLine = true,
-            modifier = Modifier.weight(weight = 1f).height(height = 56.dp),
+            modifier = Modifier.weight(weight = 1f).height(height = 60.dp),
             colors= TextFieldDefaults.colors(
                 focusedIndicatorColor = Color.Transparent,
                 unfocusedIndicatorColor = Color.Transparent,
@@ -60,14 +60,12 @@ fun SearchBar() {
             )
 
         )
-        Spacer(modifier = Modifier.width(width = 4.dp))
+        Spacer(modifier = Modifier.width(width = 8.dp))
         IconButton(onClick = {},
-            modifier = Modifier.size(56.dp).background(color = LightBrown, shape = RoundedCornerShape(topStart = 0.dp, topEnd = 16.dp, bottomStart = 0.dp,bottomEnd = 16.dp)))
+            modifier = Modifier.size(50.dp, height = 58.dp).background(color = LightBrown, shape = RoundedCornerShape(topStart = 0.dp, topEnd = 16.dp, bottomStart = 0.dp,bottomEnd = 16.dp)))
         {
             Icon(painter = painterResource(id = R.drawable.regular_outline_filter ),
                 contentDescription = "filter", tint = Color.White)
         }
     }
 }
-
-
