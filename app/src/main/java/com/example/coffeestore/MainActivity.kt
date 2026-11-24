@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.coffeestore.screens.homescreen.HomeScreen
 import com.example.coffeestore.ui.theme.CoffeeStoreTheme
 
 class MainActivity : ComponentActivity() {
@@ -19,8 +20,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             CoffeeStoreTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                }
+                HomeScreen()
             }
         }
     }
